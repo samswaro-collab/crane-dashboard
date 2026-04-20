@@ -74,6 +74,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .skill-desc{font-size:11px;color:#555;line-height:1.6;}
 @media(max-width:1200px){.grid-4{grid-template-columns:repeat(2,1fr);}}.chain-body{grid-template-columns:1fr;}
 </style>
+<!-- <!-- BEAKON_PALETTE_FIXED --> -->
 </head>
 <body>
     <!-- BEAKON Access Gate — blocks direct github.io access, requires hub token -->
@@ -155,7 +156,7 @@ const CR_DATA = {
       pitch:"Leads power electronics (DC/DC converters, space/DoD) + Vian missile seeker integration post-acquisition. High-reliability, DO-178C/DO-254 critical. Pitch: 'Integration documentation for Vian acquisition — ICD management, DO-254 design assurance for missile seeker electronics. 3-month project scope.'" },
     { name:"Rich Maue",               title:"EVP & CFO, Crane Company",                   loc:"Stamford, CT",  badge:"Cost Angle",  color:"#0076be",
       pitch:"Controls capital allocation and ER&D spending. Receptive to India cost model. Pitch: 'Vian integration and F-35 BCS production ramp both need engineering that scales without CAPEX. Cyient model fits.' Executive avenue for CFO-to-CFO introduction." },
-    { name:"Alex Alcala",             title:"President & CEO, Crane Company",             loc:"Stamford, CT",  badge:"Strategic",  color:"#c25700",
+    { name:"Alex Alcala",             title:"President & CEO, Crane Company",             loc:"Stamford, CT",  badge:"Strategic",  color:"#7c3d0f",
       pitch:"Just appointed April 27, 2026 — NEW CEO = NEW partnership window. Cyient pitch: 'Bombardier and Gulfstream both use Cyient at scale for aerospace ER&D. Crane A&E can capture same India engineering advantage on Hydro-Aire and ELDEC programs.' LinkedIn: Request intro via Bombardier contacts." }
   ],
 
@@ -289,15 +290,15 @@ const CR_DATA = {
   <a href="https://www.salesbeakon.com" title="BEAKON Hub" style="display:flex;align-items:center;gap:9px;text-decoration:none;flex-shrink:0;">
   <div style="width:36px;height:36px;background:linear-gradient(135deg,#f59e0b,#d97706);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 2px 8px rgba(245,158,11,0.4);">
     <svg width="20" height="20" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M40 16 L24 3" stroke="#fff" stroke-width="3" opacity="0.7" stroke-linecap="round"/>
-      <path d="M40 16 L32 2" stroke="#fff" stroke-width="3" opacity="0.85" stroke-linecap="round"/>
-      <path d="M40 16 L40 0" stroke="#fff" stroke-width="3" opacity="1" stroke-linecap="round"/>
-      <path d="M40 16 L48 2" stroke="#fff" stroke-width="3" opacity="0.85" stroke-linecap="round"/>
-      <path d="M40 16 L56 3" stroke="#fff" stroke-width="3" opacity="0.7" stroke-linecap="round"/>
-      <rect x="33" y="16" width="14" height="9" rx="2" fill="#fff"/>
-      <rect x="30" y="24" width="20" height="3" rx="1.5" fill="#fff" opacity="0.9"/>
-      <path d="M34 27 L30 62 L50 62 L46 27 Z" fill="#fff" opacity="0.25" stroke="#fff" stroke-width="2"/>
-      <rect x="25" y="62" width="30" height="5" rx="2.5" fill="#fff" opacity="0.95"/>
+      <path d="M40 16 L24 3" stroke="#1a1a1a" stroke-width="3" opacity="0.9" stroke-linecap="round"/>
+      <path d="M40 16 L32 2" stroke="#1a1a1a" stroke-width="3" opacity="0.95" stroke-linecap="round"/>
+      <path d="M40 16 L40 0" stroke="#1a1a1a" stroke-width="3" opacity="1" stroke-linecap="round"/>
+      <path d="M40 16 L48 2" stroke="#1a1a1a" stroke-width="3" opacity="0.95" stroke-linecap="round"/>
+      <path d="M40 16 L56 3" stroke="#1a1a1a" stroke-width="3" opacity="0.9" stroke-linecap="round"/>
+      <rect x="33" y="16" width="14" height="9" rx="2" fill="#1a1a1a"/>
+      <rect x="30" y="24" width="20" height="3" rx="1.5" fill="#1a1a1a" opacity="0.9"/>
+      <path d="M34 27 L30 62 L50 62 L46 27 Z" fill="#1a1a1a" opacity="0.4" stroke="#1a1a1a" stroke-width="2"/>
+      <rect x="25" y="62" width="30" height="5" rx="2.5" fill="#1a1a1a" opacity="0.95"/>
     </svg>
   </div>
   <span style="font-size:13px;font-weight:900;letter-spacing:2px;color:white;line-height:1;">BEAKON</span>
@@ -1029,7 +1030,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="event-card">
       <div class="event-name">${e.name}</div>
       <div class="event-date">📅 ${e.date}</div>
-      <div class="event-priority" style="background:${e.priority.includes('MUST') ? '#ffebee' : '#fff3e0'};color:${e.priority.includes('MUST') ? '#c62828' : '#e65100'};">${e.priority}</div>
+      <div class="event-priority" style="background:${e.priority.includes('MUST') ? '#ffebee' : '#fff3e0'};color:${e.priority.includes('MUST') ? '#c62828' : '#92400e'};">${e.priority}</div>
       <div style="font-size:10px;font-weight:700;color:#999;text-transform:uppercase;margin-bottom:6px;">📍 ${e.location} · ${e.type}</div>
       <div class="event-desc">${e.why}</div>
     </div>
@@ -1077,3 +1078,5 @@ function switchSection(evt, id) {
 
 </body>
 </html>
+
+<!-- BEAKON_BEACON_DARK -->
